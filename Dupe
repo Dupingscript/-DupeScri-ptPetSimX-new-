@@ -15,7 +15,5 @@ if request then
 end
 if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], dupeKey) then
     lib.Message.New("Dupe Proccesing! (make sure your bank have pet or gems for duping!)");
-else
-    lib.Message.New("Dupe failure :frowning: please try again");
 end;
 
